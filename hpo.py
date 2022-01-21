@@ -71,7 +71,7 @@ def train(model, train_loader, criterion, optimizer, device):
     pass
     
 def net():
-    model = models.resnet18(pretrained=True)
+    model = models.resnet50(pretrained=True)
 
     for param in model.parameters():
         param.requires_grad = False   
