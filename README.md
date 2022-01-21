@@ -55,6 +55,9 @@ The following screenshots show completed training jobs, and the hyperparameter v
 ![training_hpo4](https://github.com/Bash-mocart/deep-learning-with-computer-vision-aws-sagemaker/blob/main/trainingjobs.PNG)
 
 
+![training_hp4](https://github.com/Bash-mocart/deep-learning-with-computer-vision-aws-sagemaker/blob/main/ptrainingjobs.PNG)
+
+
 ![training_hpo5](https://github.com/Bash-mocart/deep-learning-with-computer-vision-aws-sagemaker/blob/main/besttrainingjobhp.PNG)
 
 
