@@ -11,7 +11,7 @@ The steps that the notebook goes through are:
 1. Setting up hyperparameter tuning using learning rate, weight decay, eps and batch size using the AdamW optimizer on ResNet18.
 1. Starting a hyperparameter tuning job using 20 training jobs (2 at a time) with autoshutdown on the AWS SageMaker Hyperparameter Tuning system.
 1. Record the best hyperparameters as discovered from the above.
-1. Train a fine-tuned model using ResNet18 and the best hyperparameters over a larger number of epochs, recording profiling and debug data.
+1. Train a fine-tuned model using ResNet50 and the best hyperparameters over a larger number of epochs, recording profiling and debug data.
 1. Examine the output from the profiling and debug of the above.
 1. Re-run the training with profiling and debug turned off (due to issues deploying model trained with the above).
 1. Deploy that model as an endpoint on AWS.
