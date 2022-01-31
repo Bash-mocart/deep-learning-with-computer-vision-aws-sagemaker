@@ -1,7 +1,7 @@
 # deep-learning-with-computer-vision-aws-sagemaker
 The goal of this project was to use AWS Sagemaker to finetune a pretrained model that can perform Image Classification by using the Sagemaker profiling, debugger, hyperparameter tuning and other good ML Engineering Practices.
 
-This project takes a pretrained CNN model (Resnet18) and finetunes it for use in classifying dog breeds into 133 classifications based on a Dog Breeds dataset.
+This project takes a pretrained CNN model (Resnet50) and finetunes it for use in classifying dog breeds into 133 classifications based on a Dog Breeds dataset.
 
 The steps that the notebook goes through are:
 
