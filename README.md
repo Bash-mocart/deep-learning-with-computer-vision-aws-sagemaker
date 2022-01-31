@@ -74,13 +74,6 @@ I found some issues were with PoorWeightInitialization, and LowGPUUtilization du
 
 
 ### Model Deployment
-Originally the model was deployed as intended (by calling deploy on the Estimator), however querying the created endpoint resulted in the error presented on the following screenshot. I could not obtain any predictions on the inference because of the error on the screenshot below. 
-
-![error](https://user-images.githubusercontent.com/54789219/146488759-a9bd498b-9a97-40e4-9518-e6380af1be1f.JPG)
-
-
-The new inference handler script was adapted from [here]( https://docs.aws.amazon.com/sagemaker/latest/dg/adapt-inference-container.html ), where the model_fn, input_fn and predict_fn added functionality for loading the model, deserializing the input data so that it could be passed to the model, and for getting predictions from the function. The code is implemented in test.py script.
-The prediction was generated for one of the custom images using SageMaker runtime API with the invoke_endpoint method.
 
 The screenshot below shows the active endpoint for the model.
 
